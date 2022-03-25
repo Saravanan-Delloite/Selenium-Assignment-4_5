@@ -10,7 +10,6 @@ import java.io.*;
 public class BaseClass
 {
     static WebDriver driver;
-
     public static WebDriver initialSetup() throws Exception
     {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\ksaravanakumar\\Documents\\chromedriver.exe");
